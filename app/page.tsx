@@ -6,8 +6,8 @@ export default function Home() {
   return (
     <>
       <Hero 
-        title="A place to find afforable healthcare"
-        subtitle="We aim to make healthcare easy to find."
+        title="Finding afforable healthcare near you."
+        subtitle="Why should healthcare be so expensive?"
       />
       <div className="w-9/12 m-auto">
         <About/>
