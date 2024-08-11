@@ -11,14 +11,17 @@ const Contact: React.FC = () => {
     <div id="contact" className="lg:h-[50vh] w-3/4 m-auto flex flex-col content-center text-center">
       <hr className="border-t-2 border-neutral-400 my-4" />
       <h2 className={notoSans.className + ' font-bold text-3xl text-sky-900 mb-3 text-center mt-10'}>Contact Us</h2>
-      <div className="flex flex-col space-y-5 lg:grid lg:grid-flow-col lg:justify-stretch text-slate-500">
+      <div className="flex flex-col space-y-5 lg:space-y-0 lg:flex lg:flex-row lg:justify-around text-slate-500">
         <div className="flex flex-col justify-center space-y-2">
           <a href="mailto:asmakkapati@ku.edu,krishivanamamaly@ku.edu?subject=More%20Info%20on%20HealthBridge">
             <span className="material-symbols-outlined rounded-full p-2 bg-sky-100 hover:text-slate-600" style={{ fontSize: '2rem' }}>mail</span>
           </a>
           <p className="text-lg text-sky-900">Email</p>
           <p className="text-neutral-500">Have any questions or want to find out more?</p>
-          <a href="mailto:asmakkapati@ku.edu,krishivanamamaly@ku.edu?subject=More%20Info%20on%20HealthBridge">
+          <a
+            className="text-sky-700 hover:text-sky-600"
+            href="mailto:asmakkapati@ku.edu,krishivanamamaly@ku.edu?subject=More%20Info%20on%20HealthBridge"
+          >
             krishivanamamaly@ku.edu
           </a>
         </div>
@@ -28,7 +31,7 @@ const Contact: React.FC = () => {
           </a>
           <p className="text-lg text-sky-900">Phone</p>
           <p className="text-neutral-500">Talk to us about HealthBridge!</p>
-          <a href="tel:+19135551099">
+          <a className="text-sky-700 hover:text-sky-600" href="tel:+19135551099">
             +1(913)-555-1099
           </a>
         </div>

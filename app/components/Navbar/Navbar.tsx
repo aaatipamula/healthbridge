@@ -27,7 +27,7 @@ const Navbar: React.FC<NavbarProps> = ({ items }) => {
       </div>
       <div className="lg:hidden">
         <span
-          className="absolute top-1/2 -translate-y-1/2 material-symbols-outlined"
+          className="cursor-pointer absolute top-1/2 -translate-y-1/2 material-symbols-outlined"
           onClick={() => setShowMenu(prev => !prev)}
         >
           {showMenu ? 'close' : 'menu'}
@@ -52,7 +52,7 @@ const Navbar: React.FC<NavbarProps> = ({ items }) => {
         className="p-2 text-lg text-zinc-800 rounded transition ease-out hover:text-zinc-500"
         href="/signup" target="_blank" rel="noopener noreferrer"
       >
-        Sign Up
+        Volunteer
       </a>
     </nav>
   );
