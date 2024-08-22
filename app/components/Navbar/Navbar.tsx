@@ -33,7 +33,7 @@ const Navbar: React.FC<NavbarProps> = ({ items }) => {
           {showMenu ? 'close' : 'menu'}
         </span>
         <div
-          className={`absolute bottom-0 left-0 translate-y-full flex flex-col p-2 bg-neutral-200 transition ease-out ${!showMenu && '-translate-x-full'}`}
+          className={`absolute bottom-0 left-0 w-full border-t-2 border-neutral-400 translate-y-full flex flex-col p-2 bg-neutral-200 transition ease-out ${!showMenu && '-translate-x-full'}`}
         >
           {items.map((item, index) => (
             <Link
@@ -50,7 +50,8 @@ const Navbar: React.FC<NavbarProps> = ({ items }) => {
       </Link>
       <a 
         className="p-2 text-lg text-zinc-800 rounded transition ease-out hover:text-zinc-500"
-        href="/signup" target="_blank" rel="noopener noreferrer"
+        href="https://docs.google.com/forms/d/e/1FAIpQLSdS2n1Tu9rcF0zfRbYvFKwCbzH7I6TXtM5LrtdG9GtMUOilUw/viewform"
+        target="_blank" rel="noopener noreferrer"
       >
         Volunteer
       </a>

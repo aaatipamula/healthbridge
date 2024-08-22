@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
         Made by <a href="https://github.com/aaatipamula" className="text-sky-200 hover:text-sky-100">Aniketh A.</a>
       </div>
       <div>
-        KU HealthBridge Club @ 2024
+        KU HealthBridge Initiative @ 2024
       </div>
       <div className="hidden lg:block cursor-pointer text-sky-200 hover:text-sky-100" onClick={handleScrollClick}>
         Scroll to Top 
