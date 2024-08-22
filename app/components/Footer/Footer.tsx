@@ -1,6 +1,7 @@
 'use client'
 
 import React from "react";
+import Image from "next/image";
 
 const Footer: React.FC = () => {
 
@@ -23,6 +24,13 @@ const Footer: React.FC = () => {
       <div className="hidden lg:block cursor-pointer text-sky-200 hover:text-sky-100" onClick={handleScrollClick}>
         Scroll to Top 
       </div>
+      <Image
+        width="64"
+        height="64"
+        src="/img/logo.png"
+        alt="HealthBridge"
+        className="fixed bottom-0 right-0 opacity-50"
+      />
     </div>
   );
 };
