@@ -10,13 +10,16 @@ export const STATES = [
   {
     name: "Kansas",
     cities: [
-      { city: "Lawrence", link: "https://docs.google.com/document/d/1WgD3KAHzTW0ppuwPzIjl5MlzF_V156y5/edit?usp=sharing&ouid=105833784460411973638&rtpof=true&sd=true" },
+      {
+        city: "Lawrence (English)",
+        link: "/doc/guide_lawrence_en.pdf"
+      },
     ]
   },
   {
     name: "Missouri",
     cities: [
     ]
-  }
+  },
 ] as StateGuide[];
 
